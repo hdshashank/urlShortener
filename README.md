@@ -14,7 +14,7 @@ This project is a URL Shortener service that allows users to convert long URLs i
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hdshashankgowda/url_shortener.git
+   git clone https://github.com/hdshashank/url_shortener.git
    ```
 2. Navigate to the project directory:
    ```bash
