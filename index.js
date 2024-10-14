@@ -44,8 +44,8 @@ app.post("/shorten", async (req, res) => {
   }
 });
 
-app.get("/:short", async (req, res) => {
-  const urlID = req.params.short;
+app.get("/:shortUrl", async (req, res) => {
+  const urlID = req.params.shortUrl;
   const shortUrl = await ShortUrls.findOne({ short: urlID });
   if (shortUrl == null) return res.sendStatus(404);
   shortUrl.clicks++;
